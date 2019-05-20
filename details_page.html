@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css">
+    <style>
+        body {
+            margin: 8px;
+            font-size: 10px;
+        }
+
+        th, td {
+            padding: 3px;
+            text-align: right;
+            width: 10%;
+        }
+
+        .key {
+            background-color: #f0f4fd;
+            width: 6%;
+        }
+
+        .primary_key {
+            background-color: #75aafa;
+            color: white;
+        }
+
+        .warning_key {
+            background-color: #f8c729;
+        }
+
+        .case_table{
+            padding-right: 1px;
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="detail-table">
+    <table class="table-bordered">
+        <thead>
+        <tr>
+            <th class="serial_number key" style="background-color: #dde9ff;">个案序列号:</th>
+            <th colspan="7" style="background-color:#fbf8cb;"></th>
+
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td class="key">姓名：</td>
+            <td></td>
+            <td class="key">委托方：</td>
+            <td></td>
+            <td class="key">批次号：</td>
+            <td></td>
+            <td class="key">地区：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">证件号：</td>
+            <td></td>
+            <td class="key">合同号：</td>
+            <td></td>
+            <td class="key">逾期日期：</td>
+            <td></td>
+            <td class="primary_key key">预期账龄：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="primary_key key">委案金额：</td>
+            <td></td>
+            <td class="key">已还款：</td>
+            <td></td>
+            <td class="key">佣金率：</td>
+            <td></td>
+            <td class="key">委案日期：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="primary_key key">最新欠款：</td>
+            <td></td>
+            <td class="key">催收员：</td>
+            <td></td>
+            <td class="key">分配时间：</td>
+            <td></td>
+            <td class="key">保单号：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="primary_key key">最近催记时间：</td>
+            <td></td>
+            <td class="primary_key key">跟进次数：</td>
+            <td></td>
+            <td class="key">催收区域：</td>
+            <td></td>
+            <td class="key">预期天数：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">委按期数：</td>
+            <td></td>
+            <td class="key">已还期数：</td>
+            <td></td>
+            <td class="key">本金：</td>
+            <td></td>
+            <td class="key">剩余本金：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">贷款日期：</td>
+            <td></td>
+            <td class="key">币种：</td>
+            <td></td>
+            <td class="key">理赔金额：</td>
+            <td></td>
+            <td class="key">每期还款额：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">违约金：</td>
+            <td></td>
+            <td class="key">逾期保费：</td>
+            <td></td>
+            <td class="key">逾期管理费：</td>
+            <td></td>
+            <td class="key">逾期利息：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">逾期罚息：</td>
+            <td></td>
+            <td class="key">扣款失败手续费：</td>
+            <td></td>
+            <td class="key">委托期限：</td>
+            <td></td>
+            <td class="key">催收小结：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">单位名称：</td>
+            <td></td>
+            <td class="key">单位号码：</td>
+            <td></td>
+            <td class="key">单位地址：</td>
+            <td></td>
+            <td class="key">单位邮编：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">单位2名称：</td>
+            <td></td>
+            <td class="key">单位2电话：</td>
+            <td></td>
+            <td class="key">单位2地址：</td>
+            <td></td>
+            <td class="key">部门：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">职位：</td>
+            <td></td>
+            <td class="key">家庭号码：</td>
+            <td></td>
+            <td class="key">家庭地址：</td>
+            <td></td>
+            <td class="key">户籍地址：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">手机：</td>
+            <td></td>
+            <td class="key">家庭号码2：</td>
+            <td></td>
+            <td class="key">家庭地址2：</td>
+            <td></td>
+            <td class="key">家庭/户籍邮编：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">配偶姓名：</td>
+            <td></td>
+            <td class="key">联系人1姓名：</td>
+            <td></td>
+            <td class="key">联系人2姓名：</td>
+            <td></td>
+            <td class="key">联系人3姓名：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">配偶家庭电话：</td>
+            <td></td>
+            <td class="key">联系人1家庭电话：</td>
+            <td></td>
+            <td class="key">联系人2家庭电话：</td>
+            <td></td>
+            <td class="key">联系人2家庭电话：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">配偶单位电话：</td>
+            <td></td>
+            <td class="key">联系人1单位电话：</td>
+            <td></td>
+            <td class="key">联系人2单位电话：</td>
+            <td></td>
+            <td class="key">联系人3单位电话：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">配偶手机：</td>
+            <td></td>
+            <td class="key">联系人1手机：</td>
+            <td></td>
+            <td class="key">联系人2手机：</td>
+            <td></td>
+            <td class="key">联系人3手机：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">配偶手机2：</td>
+            <td></td>
+            <td class="key">联系人1手机2：</td>
+            <td></td>
+            <td class="key">联系人2手机2：</td>
+            <td></td>
+            <td class="key">联系人3手机2：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">家庭传真1：</td>
+            <td></td>
+            <td class="key">家庭传真2：</td>
+            <td></td>
+            <td class="key">传真1：</td>
+            <td></td>
+            <td class="key">传真2：：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="primary_key key">催收状态：</td>
+            <td></td>
+            <td class="warning_key key">下次跟进日期：</td>
+            <td></td>
+            <td class="key">PIP金额：</td>
+            <td></td>
+            <td class="key">CP金额：：</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="key">最新评语：</td>
+            <td colspan="7" style="background-color:#fbf8cb;"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="other_case">
+    <span>同批次公债案件</span>
+    <table class="case_table table-bordered">
+        <thead>
+        <tr>
+            <th>个案序列号</th>
+            <th>卡号</th>
+            <th>账号</th>
+            <th>委案金额</th>
+            <th>币种</th>
+            <th>PTP</th>
+            <th>CP</th>
+            <th>已还款</th>
+            <th>逾期账龄</th>
+            <th>上次通电</th>
+            <th>通电次数</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td colspan="11">暂无数据</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+</body>
+</html>
